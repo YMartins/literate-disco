@@ -1,0 +1,176 @@
+    1  pwd
+    2  git
+    3  pwd
+    4  git clone https://github.com/YMartins/literate-disco.git
+    5  git config --global http.proxy http://192.168.7.253:8080
+    6  git config --global https.proxy http://192.168.7.253:8080
+    7  git clone https://github.com/YMartins/literate-disco.git
+    8  ls
+    9  cd literate-disco/
+   10  ls
+   11  pwd
+   12  ls
+   13  clear
+   14  history
+   15  man pwd
+   16  clear
+   17  pwd
+   18  clear
+   19  history
+   20  git config --global http.proxy http://192.168.7.253:8080
+   21  git config --global https.proxy http://192.168.7.253:8080
+   22  git config --global https.proxy http://192.168.7.253:8080
+   23  clear
+   24  ls
+   25  ls
+   26  clear
+   27  ls
+   28  pwd
+   29  clear
+   30  ls
+   31  cd literate-disco/
+   32  clear
+   33  ls
+   34  pwd
+   35  cleaclear
+   36  clear
+   37  ls
+   38  cd ..
+   39  ls
+   40  history 
+   41  clear
+   42  git
+   43  clear
+   44  git config
+   45  git config -l
+   46  clear
+   47  git config -l
+   48  git config -l
+   49  git config --global http.proxy http://192.168.7.253:8080
+   50  git config --global https.proxy http://192.168.7.253:8080
+   51  git config -l
+   52  clear
+   53  git config -l
+   54  git
+   55  clear
+   56  git config
+   57  clear
+   58  git config --get http.proxy
+   59  git config --get https.proxy
+   60  git config -l
+   61  ls
+   62  ls .gitconfig
+   63  cat .gitconfig
+   64  clear
+   65  ls
+   66  git config --unset https.proxy
+   67  clear
+   68  ls
+   69  git config --global --unset https.proxy
+   70  git config --global --unset http.proxy
+   71  clear
+   72  git config -l
+   73  mkdir teste01
+   74  cd teste01/
+   75  ls
+   76  history 
+   77  clear
+   78  git clone https://github.com/YMartins/literate-disco.git
+   79  history
+   80  git config --global http.proxy http://192.168.7.253:8080
+   81  git config --global https.proxy http://192.168.7.253:8080
+   82  git config -l
+   83  clear
+   84  pwd
+   85  git clone https://github.com/YMartins/literate-disco.git
+   86  clear
+   87  ls
+   88  pwd
+   89  git clone https://github.com/YMartins/literate-disco.git
+   90  ls
+   91  ls -la
+   92  ls .*
+   93  rm .git
+   94  ls
+   95  exit
+   96  pwd
+   97  ls
+   98  cd literate-disco/
+   99  ls
+  100  git status
+  101  clear
+  102  pwd
+  103  cd ..
+  104  ls
+  105  clear
+  106  ls
+  107  cd teste01/
+  108  ls
+  109  pwd
+  110  git clone https://github.com/YMartins/literate-disco.git
+  111  cd ..
+  112  more .gitconfig
+  113  pwd
+  114  ls
+  115  ls
+  116  cat .gitconfig 
+  117  vi .gitconfig 
+  118  git config -l
+  119  git config --unset http.sslcainfo
+  120  git config --global --unset http.sslcainfo
+  121  git config -l
+  122  git config --global --unset http.sslcainfo
+  123  git config -l
+  124  git config --local --unset http.sslcainfo
+  125  git config --global --set http.sslcainfo
+  126  git config --global --add http.sslcainfo
+  127  git config --global http.sslcainfo
+  128  git config -l
+  129  ls
+  130  set
+  131  clear
+  132  git config http.sslVerify false
+  133  git config --global http.sslVerify false
+  134  git config -l
+  135  pwd
+  136  cd teste01/
+  137  history 
+  138  git clone https://github.com/YMartins/literate-disco.git
+  139  clear
+  140  git config -l
+  141  ls
+  142  cd literate-disco/
+  143  git status
+  144  cd ..
+  145  git status
+  146  cd literate-disco/
+  147  clear
+  148  ls
+  149  ls -la
+  150  ls -la
+  151  ls
+  152  clear
+  153  ls
+  154  vi README.md 
+  155  touch README.md 
+  156  git status
+  157  git add README.md 
+  158  git status
+  159  git commit
+  160  git commit -m "teste"
+  161  git config --global user.email "marco.mangan@gmail.com"
+  162  git config --global user.name "Marco Mangan"
+  163  git commit
+  164  git commit -m "Teste do commit"
+  165  git status
+  166  history 
+  167  git push
+  168  git status
+  169  git pull
+  170  clear
+  171  git statuis
+  172  git status
+  173  history 
+  174  git remote -v
+  175  history
+  176  history > history-2016-05-13.txt
