@@ -5,9 +5,8 @@
  */
 package ymartins;
 
-/**
- * fdf sdf sfsdf sdf 
- * @author mamangan   teste puxar
+/** 
+ * @author mamangan   teste do Celso
  */
 public class YMartins {
 
