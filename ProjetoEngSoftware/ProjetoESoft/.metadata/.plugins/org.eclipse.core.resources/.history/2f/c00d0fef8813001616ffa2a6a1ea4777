@@ -1,0 +1,89 @@
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import java.awt.Font;
+import javax.swing.JTextPane;
+import javax.swing.JEditorPane;
+import javax.swing.JLabel;
+import javax.swing.JButton;
+import javax.swing.SwingConstants;
+
+
+public class CJogador extends JPanel {
+	private JTextField textField;
+	private JTextField txtLayer;
+	private JTextField txtR;
+
+	/**
+	 * Create the panel.
+	 */
+	public CJogador() {
+		setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel("Usu\u00E1rio:");
+		lblNewLabel.setBounds(23, 58, 56, 22);
+		add(lblNewLabel);
+		
+		JLabel lblOlMartins = new JLabel("Ol\u00E1 Martins!");
+		lblOlMartins.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		lblOlMartins.setBounds(128, 60, 114, 14);
+		add(lblOlMartins);
+		
+		JLabel lblDataDaCompra = new JLabel("Data da compra:");
+		lblDataDaCompra.setBounds(23, 92, 86, 14);
+		add(lblDataDaCompra);
+		
+		textField = new JTextField();
+		textField.setEditable(false);
+		textField.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		textField.setText("29/04/2016");
+		textField.setBounds(128, 87, 114, 22);
+		add(textField);
+		textField.setColumns(10);
+		
+		JButton btnNewButton = new JButton("Comprar");
+		btnNewButton.setBounds(269, 447, 313, 71);
+		add(btnNewButton);
+		
+		txtLayer = new JTextField();
+		txtLayer.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		txtLayer.setEditable(false);
+		txtLayer.setText("Layers of Fear");
+		txtLayer.setBounds(128, 129, 193, 22);
+		add(txtLayer);
+		txtLayer.setColumns(10);
+		
+		JLabel lblNomeDoJogo = new JLabel("Nome do jogo:");
+		lblNomeDoJogo.setBounds(23, 133, 86, 14);
+		add(lblNomeDoJogo);
+		
+		JLabel lblDescrio = new JLabel("Descri\u00E7\u00E3o:");
+		lblDescrio.setBounds(23, 176, 56, 14);
+		add(lblDescrio);
+		
+		JTextPane txtpnCamadasDeMedo = new JTextPane();
+		txtpnCamadasDeMedo.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		txtpnCamadasDeMedo.setText("Camadas de Medo \u00E9 um terror psicol\u00F3gico \r\njogo de v\u00EDdeo desenvolvido e publicado pela \r\nBloober equipe para Linux , Microsoft Windows , \r\nOS X , PlayStation 4 e Xbox One .");
+		txtpnCamadasDeMedo.setBounds(128, 176, 280, 91);
+		add(txtpnCamadasDeMedo);
+		
+		JLabel lblPreo = new JLabel("Pre\u00E7o:");
+		lblPreo.setBounds(23, 315, 46, 14);
+		add(lblPreo);
+		
+		txtR = new JTextField();
+		txtR.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		txtR.setHorizontalAlignment(SwingConstants.RIGHT);
+		txtR.setEditable(false);
+		txtR.setText("R$ 190,70");
+		txtR.setBounds(128, 309, 193, 22);
+		add(txtR);
+		txtR.setColumns(10);
+		
+		JEditorPane dtrpnImagemDoJogo = new JEditorPane();
+		dtrpnImagemDoJogo.setEditable(false);
+		dtrpnImagemDoJogo.setText("IMAGEM DO JOGO");
+		dtrpnImagemDoJogo.setBounds(442, 170, 106, 20);
+		add(dtrpnImagemDoJogo);
+
+	}
+}

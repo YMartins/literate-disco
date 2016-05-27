@@ -1,0 +1,13 @@
+import javax.swing.JPanel;
+
+
+public class CJogador extends JPanel {
+
+	/**
+	 * Create the panel.
+	 */
+	public CJogador() {
+
+	}
+
+}
